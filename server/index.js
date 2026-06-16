@@ -1,8 +1,9 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
-require('dotenv').config();
 const path = require('path');
+// Load .env from the repository root so developers can keep a single .env there
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 
 const app = express();
 app.use(cors());
@@ -11,6 +12,8 @@ app.use(express.json());
 const PINGDOM_TOKEN = process.env.PINGDOM_TOKEN || '';
 if (!PINGDOM_TOKEN) {
   console.warn('Warning: PINGDOM_TOKEN not set. /api/checks will return mock data.');
+} else {
+  console.log('PINGDOM_TOKEN loaded from .env (hidden)');
 }
 
 app.get('/api/checks', async (req, res) => {
