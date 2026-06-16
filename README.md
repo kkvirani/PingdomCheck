@@ -21,4 +21,4 @@ Quick start
 
 4. Open the client URL shown by Vite (usually http://localhost:5173)
 
-I can also push this repo to GitHub if you provide a token or allow me to open a browser to authenticate.
+//I can also push this repo to GitHub if you provide a token or allow me to open a browser to authenticate.
