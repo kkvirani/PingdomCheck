@@ -3,6 +3,7 @@
 Beautiful dashboard to view your Pingdom checks. This project contains a simple Express proxy server and a Vite + React frontend.
 
 Features:
+
 - Fetches checks from Pingdom via a server-side proxied API to keep your API token secure
 - Clean, responsive UI with status chips and search
 
@@ -12,6 +13,7 @@ Quick start
 2. Install dependencies:
 
    # From the repo root you can install both with a single command:
+
    npm run setup
 
 3. Start the app (single command):
