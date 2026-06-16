@@ -23,5 +23,3 @@ Quick start
 This will start the server at port 3000 and the client (Vite) dev server; the client is proxied so API calls to `/api` go to the server.
 
 4. Open the client URL shown by Vite (usually http://localhost:5173)
-
-I can also push this repo to GitHub if you provide a token or allow me to open a browser to authenticate.
