@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "pingdomcheck": "file:..",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "dayjs": "^1.11.9"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",

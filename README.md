@@ -11,13 +11,14 @@ Quick start
 1. Copy `.env.example` to `.env` and fill PINGDOM_TOKEN.
 2. Install dependencies:
 
-   cd server; npm install
-   cd ../client; npm install
+   # From the repo root you can install both with a single command:
+   npm run setup
 
-3. Run both servers in separate terminals:
+3. Start the app (single command):
 
-   cd server; npm run dev
-   cd ../client; npm run dev
+   npm run dev
+
+This will start the server at port 3000 and the client (Vite) dev server; the client is proxied so API calls to `/api` go to the server.
 
 4. Open the client URL shown by Vite (usually http://localhost:5173)
 
